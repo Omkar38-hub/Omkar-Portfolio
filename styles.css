@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
 /* root is used for whole page */
 :root {
@@ -8,14 +8,18 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merriweather', serif;
   margin: 0;
+  text-align: center;
 }
 
 hr {
   margin: 3rem 0;
 }
+p{
+  line-height: 1.5;
 
+}
 .container {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -39,6 +43,7 @@ hr {
 .link-primary {
   background-color: var(--Primary-color);
   border-radius: 0.5rem;
+  padding: 0.6rem 1.2rem;
   color: white;
 }
 
@@ -53,11 +58,12 @@ hr {
 /* above is Bem naming convention in CSS*/
 .list-non-bullet {
   list-style: none;
+  padding: 1rem 0 0;
 }
 
 .list-item-inline {
   display: inline;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
 }
 
 /* navigation */
@@ -65,7 +71,7 @@ hr {
   background-color: var(--Primary-color);
   color: white;
   padding: 1rem;
-  border-bottom-left-radius: 3rem;
+  border-bottom-left-radius: 2rem;
   border-top-right-radius: 3rem;
 }
 
@@ -76,10 +82,13 @@ hr {
 
 .navigation .nav-brand {
   font-weight: bold;
+  font-size: 1.4rem;
+  text-align: left;
 }
 
 .navigation .nav-pills {
   text-align: right;
+  font-size: 1.1rem;
 }
 
 .navigation .link-active {
@@ -116,10 +125,11 @@ hr {
 }
 .section h1 {
   text-align: center;
-
+  font-size: 1.8rem;
 }
 .ow{
-  background-color: var(--off-white);
+  background-color: #D1D5DB;
+  border-radius: 1rem;
 }
 
 /* footer */
@@ -132,6 +142,9 @@ hr {
 }
 .footer .link{
   color: white;
+}
+.footer img{
+  width: 1.5rem;
 }
 .footer .footer-header{
   font-weight: bold;
