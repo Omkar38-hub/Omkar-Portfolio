@@ -18,7 +18,7 @@ hr {
 }
 p{
   line-height: 1.5;
-
+  padding-bottom: 1rem;
 }
 .container {
   padding-left: 1rem;
@@ -153,13 +153,30 @@ p{
 .footer ul{
   padding-inline-start:0;
 }
-.showcase-list {
-  /* padding: 2rem; */
-  padding: 2rem;
-  border-radius: 1rem;
-  text-align: center;
-  margin: 3rem auto;
-}
-.showcase-list h1 {
-  margin: 0.5rem;
-}
+ /* projects */
+ .section .project-name{
+   font-size: 1.5rem;
+ }
+ @media (max-width: 900px) {
+   body {
+     max-width: 95%;
+     width: 100%;
+     text-align: center;
+   }
+
+   .list-item-inline {
+     display: inline;
+     padding: 0rem;
+   }
+
+   .container-center {
+     width: auto;
+   }
+
+   .link-primary,.link-secondary{
+     display: block;
+     width: 50%;
+     margin: 5% auto;
+   }
+
+ }
